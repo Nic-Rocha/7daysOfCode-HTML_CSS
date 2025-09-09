@@ -24,4 +24,4 @@ O desafio foi uma ótima oportunidade para treinar boas práticas e melhorar a l
 
 ## 💻 Demonstração  
 
-👉 [Acesse o projeto no GitHub Pages](https://seu-usuario.github.io/nome-do-repositorio/) 🚀
+👉 [Acesse o projeto no GitHub Pages](https://nic-rocha.github.io/7daysOfCode-HTML_CSS/) 🚀
