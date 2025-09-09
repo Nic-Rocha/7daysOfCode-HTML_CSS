@@ -1,0 +1,215 @@
+:root{
+  --cor-background:#FFFFFF;
+  --cor-primaria:#667085;
+  --cor-segundaria:#8E2424;
+  --cor-terciaria:#101828;
+  --cor-quartenaria:#9aa3b4;
+  --cor-quintenaria:#fdf8f8;
+  --cor-rodape: #F9FAFB;
+  --cor-hover-navegacao: #555e70;
+  --fonte-principal: "Inter", sans-serif;
+
+}*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: var(--fonte-principal);
+
+}body{
+  background-color:var(--cor-background);
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}.cabecalho{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:5rem;
+  justify-content: space-around;
+  align-items: center;
+} .logo{
+  width: 8.87rem;
+  height: 2rem;
+}.navegacao{
+  padding: 80px;
+}.cabecalho__navegacao{
+  text-decoration: none;
+  color: var(--cor-primaria);
+  font-size: 16px;
+  padding: 16px;
+}.cabecalho__navegacao:hover{
+  color:var(--cor-hover-navegacao);
+}.botao{
+  padding: 0 0 0 240px;
+} .botao_navegacao{
+  font-size: 16px;
+  background-color: var(--cor-segundaria);
+  color: var(--cor-background);
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 10px 18px;
+  
+} .botao_navegacao :hover{
+  color: #667085;
+} .entrar{
+  background-color: transparent;
+  color: var(--cor-quartenaria);
+} .sobre_nos{
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 96px 0;
+} .frase_breve{
+  color: var(--cor-segundaria);
+  font-weight: 600;
+  font-size: 16px;
+  background: var(--cor-quintenaria);
+  padding: 0.6rem 1rem;
+  border-radius: 9999px; 
+  
+}.titulo{
+  color: var(--cor-terciaria);
+  font-size: 48px;
+  padding: 24px 32px;
+}.sobre_nos__texto{
+  color: var(--cor-primaria);
+  font-weight: 400;
+  font-size: 20px;
+  padding: 12px;
+  line-height: 24px;
+
+}.metricas{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 96px;
+}.metrica__texto__titulo{
+  color: var(--cor-segundaria);
+  font-size: 56px;
+  font-weight: 600;
+}.metrica__texto__subtitulo{
+  color: var(--cor-terciaria);
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}.metrica__texto__paragrafo{
+  color: var(--cor-primaria);
+  font-size: 16px;
+  font-weight: 400;
+}.vagas{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin:96px 0 96px 0;
+  }.talentos {
+    text-align: center;
+  }.vagas__titulo {
+    font-size: 44px;
+    font-weight: 600;
+    padding: 20px;
+  }.vagas__paragrafo{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-primaria);
+  } .workingPeople{
+   width: 90%; 
+   padding: 96px 112px 96px 112px;
+}.vagas_abertas{
+  margin: 0 25% 0 25%;
+   text-align: left;
+ 
+}.area__nome{
+  font-size:20px;
+  font-weight:500;
+  color: var(--cor-terciaria);
+  margin: 10% 0 0 4%;
+}.vaga{
+  border:solid var(--cor-terciaria) 1px;
+  border-radius: 16px;
+  padding: 32px;
+   margin:3%;
+}.titulo-vaga{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cor-terciaria);
+}.informacoes{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--cor-quartenaria);
+  padding-top:24px ;
+}.depoimento{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 96px 0;
+}.container {
+  background-color: var(--cor-quintenaria);
+   padding: 32px;
+}.conteudo{
+  padding: 16px;
+}.frase_breve2{
+  color: var(--cor-segundaria);
+  font-size: 14px;
+}.comentario{
+  padding-top: 16px;
+  color: var(--cor-terciaria);
+  font-size: 36px;
+  font-weight: 500;
+}.avatar{
+  padding: 16px;
+}.comentario_pessoa{
+  border-radius: 200px;
+  width: 56px;
+  height: 56px;
+}.nome{
+  font-size: 16px;
+  color: var(--cor-terciaria);
+}.ocupacao{
+  font-size: 14px;
+  color: var(--cor-primaria);
+}.rodape{
+  background-color: var(--cor-rodape);
+  padding: 96px 0 96px 0;
+}.container_2{
+  padding: 0 32px 0 32px;
+}
+.rodape_titulo{
+  color: var(--cor-terciaria);
+  font-size: 600;
+  font-size: 36px;
+}.rodape_texto{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cor-primaria);
+  padding-top: 20px;
+}.cadastro_input{
+  padding-top: 40px;
+  width: 100%;
+}.email{
+  width:520px;
+  height:48px ;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(58, 55, 55, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: var(--cor-primaria);
+  padding: 20px 45px 20px 20px;
+}.botao_cadastro{
+  color: var(--cor-background);
+  background-color: var(--cor-segundaria);
+  padding: 12px;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(58, 55, 55, 0.2);
+  border-radius: px;
+  font-size: 16px;
+
+}.rodape_finalizacao{
+  color: var(--cor-quartenaria);
+  font-size:1rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
