@@ -15,7 +15,6 @@ Durante o desenvolvimento, foram exercitadas habilidades como:
 * Utilização do Figma como ferramenta de apoio ao design.
 
 O desafio foi uma ótima oportunidade para treinar boas práticas e melhorar a lógica na criação de layouts responsivos e bem estruturados.
----
 
 ## 🚀 Tecnologias  
 ✅ HTML  
